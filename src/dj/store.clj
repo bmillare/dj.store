@@ -18,6 +18,8 @@
   "assumes valid initial state for atom env
 
 cb is called with the newly created id
+
+returns a string
 "
   [env store-namespace]
   (loop []
